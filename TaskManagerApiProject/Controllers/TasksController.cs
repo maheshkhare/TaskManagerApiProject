@@ -23,6 +23,17 @@ namespace TaskManagerApiProject.Controllers
                 return await _context.Tasks.ToListAsync();
             }
 
-          
+            // GET: api/tasks/{id}
+            [HttpGet("{id}")]
+            public async Task<ActionResult<TaskModel>> GetTask(int id)
+            {
+                var task = await _context.Tasks.FindAsync(id);
+                if (task == null)
+                    return NotFound(new { error = "Task not found" });
+
+                return task;
+            }
+
+           
         }
 }
