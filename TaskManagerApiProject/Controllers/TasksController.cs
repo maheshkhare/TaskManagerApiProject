@@ -34,6 +34,19 @@ namespace TaskManagerApiProject.Controllers
                 return task;
             }
 
+            // POST: api/tasks
+            [HttpPost]
+            public async Task<ActionResult<TaskModel>> CreateTask(TaskModel task)
+            {
+                if (string.IsNullOrWhiteSpace(task.Title))
+                    return BadRequest(new { error = "Title is required" });
+
+                _context.Tasks.Add(task);
+                await _context.SaveChangesAsync();
+
+                return CreatedAtAction(nameof(GetTask), new { id = task.Id }, task);
+            }
+
            
         }
 }
