@@ -1,6 +1,7 @@
-@TaskManagerApiProject_HostAddress = http://localhost:5210
+@TaskManagerApiProject_HostAddress = http://localhost:5210/swagger
 
-GET {{TaskManagerApiProject_HostAddress}}/weatherforecast/
+# GET {{TaskManagerApiProject_HostAddress}}/weatherforecast/
 Accept: application/json
 
 ###
+
