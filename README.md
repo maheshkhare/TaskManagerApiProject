@@ -10,7 +10,7 @@ This project allows users to Create, Read, Update, and Delete (CRUD) tasks and s
 #clone the repository 
 1. Clone the repo:
    ```bash
-   git clone https://github.com/maheshkhare/TaskManagerAPI.git
+   git clone https://github.com/maheshkhare/TaskManagerApiProject.git
    cd TaskManagerAPI
 #run the app using http only and 
 #Open Swagger UI: https://localhost:5126/swagger
