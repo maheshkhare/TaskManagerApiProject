@@ -17,22 +17,21 @@ This project allows users to Create, Read, Update, and Delete (CRUD) tasks and s
 
 
 API Endpoints
-Method	Endpoint	Description
-GET	/api/tasks	Get all tasks
-GET	/api/tasks/{id}	Get task by ID
-POST	/api/tasks	Add a new task
-PUT	/api/tasks/{id}	Update a task
-DELETE	/api/tasks/{id}	Delete a task
+1.GET	/api/tasks	Get all tasks
+2.GET	/api/tasks/{id}	Get task by ID
+3.POST	/api/tasks	Add a new task
+4.PUT	/api/tasks/{id}	Update a task
+5.DELETE	/api/tasks/{id}	Delete a task
 
 Technologies Used
--.NET 8 - Backend Framework
--ASP.NET Core Web API - RESTful API Development
--Entity Framework Core (InMemory) - ORM & InMemory database
--Swagger / Swashbuckle - API documentation
--Visual Studio 2022 - IDE
+1. .NET 8 - Backend Framework
+2. ASP.NET Core Web API - RESTful API Development
+3. Entity Framework Core (InMemory) - ORM & InMemory database
+4. Swagger / Swashbuckle - API documentation
+5. Visual Studio 2022 - IDE
 
 Features
--Full CRUD operations
--InMemory database for quick prototyping
--Swagger for testing API
--Modular code structure (Models, Data, Controllers)
+1. Full CRUD operations
+2. InMemory database for quick prototyping
+3. Swagger for testing API
+4. Modular code structure (Models, Data, Controllers)
