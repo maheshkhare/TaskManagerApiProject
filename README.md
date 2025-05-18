@@ -17,6 +17,7 @@ This project allows users to Create, Read, Update, and Delete (CRUD) tasks and s
 
 
 API Endpoints
+
 1.GET	/api/tasks	Get all tasks
 2.GET	/api/tasks/{id}	Get task by ID
 3.POST	/api/tasks	Add a new task
